@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: gcr.io/google-samples/hello-app:1.0
+        image: in28min/hello-world-rest-api:0.0.1.RELEASE
         ports:
         - containerPort: 8080
